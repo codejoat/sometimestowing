@@ -22,8 +22,8 @@ html, body {
   flex-direction: column;
   min-height: 100vh;
 }
-*, 
-*::before, 
+*,
+*::before,
 *::after {
   box-sizing: inherit;
   margin: 0;
@@ -89,8 +89,7 @@ nav a:hover {
 }
 nav ul {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
   list-style: none;
   padding: 0;
   margin-left: 6.5rem;
@@ -125,19 +124,6 @@ section {
   margin: 30rem 1rem;
   box-shadow: 1px 1px 8px var(--color-text);
 }
-.lets-go {
-  padding: 0.35rem 5rem;
-  border-radius: 1rem;
-  border: none;
-  background-color: var(--color-theme);
-  font-weight: bold;
-  font-size: 1rem;
-  color: #eee;
-  transition: background-color 0.15s;
-}
-.lets-go:hover {
-  background-color: var(--color-highlight);
-}
 .current-time {
   margin-top: 0;
   padding-left: 7rem;
@@ -154,7 +140,7 @@ section {
   color: var(--color-highlight);
 }
 section h3 {
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 footer {
   text-align: center;
